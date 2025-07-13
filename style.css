@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Product-card {
+    display: grid;
+    margin: 1rem;
+    max-width: 320px;
+    margin: 4rem auto;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+}
+.perfume-image {
+    width: 100%;
+    border-radius: inherit;
+}
+.product-discription {
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+    padding: 2rem;
+}
+.product-name {
+    color: hsl(228, 12%, 48%);
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+.Product-header {
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.Product-text {
+    line-height: 1.3rem;
+    opacity: 0.7;
+}
+.Product-price {
+    color: hsl(158, 42%, 18%);
+    font-size: 2rem;
+}
+.Product-price span {
+    text-decoration: line-through;
+    font-size: 0.4em;
+    display: inline-block;
+}
+.addto-cart {
+    display: block;
+    padding: 1;
+    height: 2.4rem;
+    background-color: hsl(158, 30%, 35%);
+    color: white;
+    border-radius: 0.5rem;
+}
+.addto-cart:hover {
+    background-color: aqua;
+}
